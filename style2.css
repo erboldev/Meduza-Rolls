@@ -26,16 +26,12 @@ button {
 
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
-.header-group {
-    display: flex;
-    align-items: center;
-}
 .header-logo img{
-    width: 200px;
+    width: 110px;
     height: auto;
 }
 
@@ -129,8 +125,8 @@ button {
     justify-content:center ;
 }
 .mmm{
-    width: 150px;
-    height: 45px;
+    width: 400px;
+    height: 60px;
     background: red;
     margin-top:100px;
     border-radius: 5.5px;
@@ -143,8 +139,8 @@ button {
     transform: scale(1.1);
 }
 .nnn{
-    width: 150px;
-    height: 45px;
+    width: 400px;
+    height: 60px;
      background: red;
      margin-top:50px;
      border-radius: 5.5px;
@@ -157,8 +153,8 @@ button {
     transform: scale(1.1);
 }
 .sss{
-    width: 150px;
-    height: 45px;
+    width: 400px;
+    height: 60px;
     background: red;
     margin-top:50px;
     border-radius: 5.5px;
@@ -173,6 +169,12 @@ button {
 .clos{
     display: flex;
     justify-content: flex-end;
+}
+.closebtn{
+    color: white;
+    background: red;
+    padding:5px 13px;
+    border-radius: 6px;
 }
 
 
@@ -225,7 +227,10 @@ button {
 
 
 
-
+.hero2img img{
+    width: 400px;
+    height: auto;
+}
 
 
 

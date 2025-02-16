@@ -10,15 +10,35 @@ let heroburger=document.querySelector(".heroburger")
 let herodrink=document.querySelector(".herodrink")
 let herosouse=document.querySelector(".herosouse")
 
+let header=document.querySelector(".header")
+let hero=document.querySelector(".hero")
+
 let headerBtn1=document.querySelector(".headerBtn1")
 let modal =document.querySelector(".modal")
 let closebtn=document.querySelector(".closebtn")
+
 headerBtn1.addEventListener("click",()=>{
     modal.style.display='block'
 })
+headerBtn1.addEventListener("click",()=>{
+    header.style.display='none'
+})
+headerBtn1.addEventListener("click",()=>{
+    hero.style.display='none'
+})
+
+
+
 closebtn.addEventListener("click", ()=>{
     modal.style.display='none'
 })
+closebtn.addEventListener("click", ()=>{
+    header.style.display='block'
+})
+closebtn.addEventListener("click", ()=>{
+    hero.style.display='block'
+})
+
 
 
 rol.addEventListener("click",()=>{
@@ -83,7 +103,7 @@ piza.addEventListener("click",()=>{
 burger.addEventListener("click",()=>{
     heropiza.style.display='none'
     herorol.style.display='none'
-    heroburger.style.display='burger'
+    heroburger.style.display='block'
     herodrink.style.display='none'
     herosouse.style.display='none'
 })
