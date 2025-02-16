@@ -26,7 +26,7 @@ button {
 
 .header {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -35,7 +35,7 @@ button {
     align-items: center;
 }
 .header-logo img{
-    width: 120px;
+    width: 200px;
     height: auto;
 }
 
@@ -45,19 +45,19 @@ button {
 }
 
 .header-logo h1 {
-    font-size: 30px;
+    font-size: 80px;
     font-weight: 700;
     color: red;
-    padding-left: 16px;
+    padding-left: 20px;
 }
 
 
 .headerBtn1{
-    font-size: 16px;
+    font-size: 30px;
     font-weight: 600;
     color: white;
     background: red;
-    padding: 25px 38px;
+    padding:25px 43px;
     border-radius: 6px;
 }
 .headerBtn1:hover {
@@ -77,10 +77,11 @@ button {
 .heromenu button{
     color:white;
     background: red;
-    padding:15px 35px;
+    padding:20px 45px;
     margin-left: 20px;
     margin-bottom: 25px;
     border-radius: 5.5px;
+    font-size: 30px;
 }
 .heromenu button:hover{
     transform: scale(1.1);
