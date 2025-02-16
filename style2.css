@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+button {
+    cursor: pointer;
+    transition: .4s;
+    border: none;
+    outline: none;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header-group {
+    display: flex;
+    align-items: center;
+}
+.header-logo img{
+    width: 120px;
+    height: auto;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo h1 {
+    font-size: 30px;
+    font-weight: 700;
+    color: red;
+    padding-left: 16px;
+}
+
+
+.headerBtn1{
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background: red;
+    padding: 25px 38px;
+    border-radius: 6px;
+}
+.headerBtn1:hover {
+    background: transparent;
+    transform: scale(1.1);
+    color: red;
+}
+.hero1all{
+    display:flex;
+    align-items:center;
+}
+.heromenu{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+.heromenu button{
+    color:white;
+    background: red;
+    padding:15px 35px;
+    margin-left: 20px;
+    margin-bottom: 25px;
+    border-radius: 5.5px;
+}
+.heromenu button:hover{
+    transform: scale(1.1);
+}
+
+#hero{
+    padding:50px;
+}
+.herorol{
+    display:none;
+}
+.heropiza{
+    display: none;
+}
+.heropiza img{
+    padding-bottom:45px;
+}
+
+.hero img{
+    width:225px;
+    padding-right:15px;
+    padding-top:25px;
+}
+.hero1text h3{
+    font-weight: 550;
+    color:red;
+    font-size: 45px;
+}
+.hero1text h4{
+    font-weight: 500;
+    color:red;
+    font-size: 42px;
+}
+
+
+.modal{
+    background: white;
+    width: 600px;
+    height: 600px;
+    margin:0 auto;
+    display: none;
+}
+.mes a{
+    display: flex;
+    justify-content:center ;
+}
+.mmm{
+    width: 150px;
+    height: 45px;
+    background: red;
+    margin-top:100px;
+    border-radius: 5.5px;
+    font-size: 15px ;
+    color:white;
+}
+.mmm:hover{
+    color:red;
+    background: transparent;
+    transform: scale(1.1);
+}
+.nnn{
+    width: 150px;
+    height: 45px;
+     background: red;
+     margin-top:50px;
+     border-radius: 5.5px;
+     font-size: 15px ;
+     color:white;
+ }
+.nnn:hover {
+    color: red;
+    background: transparent;
+    transform: scale(1.1);
+}
+.sss{
+    width: 150px;
+    height: 45px;
+    background: red;
+    margin-top:50px;
+    border-radius: 5.5px;
+    font-size: 15px ;
+    color:white;
+}
+.sss:hover{
+    color:red;
+    background: transparent;
+    transform: scale(1.1);
+}
+.clos{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+@media(max-width: 1140px){
+    .container{
+        width: 90%;
+    }
+}
+@media(max-width: 1024px){
+    .container{
+        width:90%;
+    }
+}
+@media(max-width:992px){
+    .container{
+        width:90%;
+    }
+}
+@media(max-width:768px){
+    .container{
+        width:90%;
+    }
+}
+@media(max-width:576px){
+    .container{
+    width:90%
+}
+}
+@media(max-width:450px) {
+    .container {
+        width: 90%;
+    }
+}
+@media(max-width:400px){
+    .container{
+            width:90%;
+    }
+}
+@media(max-width:375px){
+    .container{
+            width:90%;
+    }
+}
+@media(max-width:320px){
+    .container{
+        width:90%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
