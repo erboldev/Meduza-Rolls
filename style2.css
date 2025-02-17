@@ -125,12 +125,12 @@ button {
     justify-content:center ;
 }
 .mmm{
-    width: 400px;
-    height: 60px;
+    width: 500px;
+    height: 100px;
     background: red;
     margin-top:100px;
     border-radius: 5.5px;
-    font-size: 15px ;
+    font-size: 60px ;
     color:white;
 }
 .mmm:hover{
@@ -139,12 +139,12 @@ button {
     transform: scale(1.1);
 }
 .nnn{
-    width: 400px;
-    height: 60px;
+    width: 500px;
+    height: 100px;
      background: red;
      margin-top:50px;
      border-radius: 5.5px;
-     font-size: 15px ;
+     font-size: 60px ;
      color:white;
  }
 .nnn:hover {
@@ -153,12 +153,12 @@ button {
     transform: scale(1.1);
 }
 .sss{
-    width: 400px;
-    height: 60px;
+    width: 500px;
+    height: 100px;
     background: red;
     margin-top:50px;
     border-radius: 5.5px;
-    font-size: 15px ;
+    font-size: 60px ;
     color:white;
 }
 .sss:hover{
@@ -171,11 +171,18 @@ button {
     justify-content: flex-end;
 }
 .closebtn{
+    margin-top:100px;
     color: white;
     background: red;
     padding:5px 13px;
     border-radius: 6px;
 }
+.closebtn:hover{
+    color:red;
+    background: transparent;
+    transform: scale(1.1);
+}
+
 
 
 @media(max-width: 1140px){
