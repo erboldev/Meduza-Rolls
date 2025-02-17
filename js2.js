@@ -16,6 +16,7 @@ let hero=document.querySelector(".hero")
 let headerBtn1=document.querySelector(".headerBtn1")
 let modal =document.querySelector(".modal")
 let closebtn=document.querySelector(".closebtn")
+let headerLogo = document.querySelector(".header-logo")
 
 headerBtn1.addEventListener("click",()=>{
     modal.style.display='block'
@@ -25,18 +26,6 @@ headerBtn1.addEventListener("click",()=>{
 })
 headerBtn1.addEventListener("click",()=>{
     hero.style.display='none'
-})
-
-
-
-closebtn.addEventListener("click", ()=>{
-    modal.style.display='none'
-})
-closebtn.addEventListener("click", ()=>{
-    header.style.display='block'
-})
-closebtn.addEventListener("click", ()=>{
-    hero.style.display='block'
 })
 
 
@@ -151,7 +140,7 @@ drink.addEventListener("click",()=>{
 
 
 souse.addEventListener("click",()=>{
-    heropiza.style.display='block'
+    heropiza.style.display='none'
     herorol.style.display='none'
     heroburger.style.display='none'
     herodrink.style.display='none'

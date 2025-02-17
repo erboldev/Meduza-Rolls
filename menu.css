@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+button {
+    cursor: pointer;
+    transition: .4s;
+    border: none;
+    outline: none;
+}
+
+.mes a{
+    display: flex;
+    justify-content:center ;
+}
+.mmm{
+    padding: 20px 145px;
+    background: red;
+    margin-top:100px;
+    border-radius: 5.5px;
+    border: 2px solid red;
+    font-size: 40px ;
+    color:white;
+}
+.mmm:hover{
+    color:red;
+    background: transparent;
+    transform: scale(1.1);
+}
+.nnn{
+    padding: 20px 145px;
+    background: red;
+    margin-top:50px;
+    border-radius: 5.5px;
+    font-size: 40px ;
+    border: 2px solid red;
+    color:white;
+}
+.nnn:hover {
+    color: red;
+    background: transparent;
+    transform: scale(1.1);
+}
+.sss{
+    padding: 20px 110px;
+    border: 2px solid red;
+    background: red;
+    margin-top: 30px;
+    border-radius: 5.5px;
+    font-size: 40px ;
+    color:white;
+}
+.sss:hover{
+    color:red;
+    background: transparent;
+    transform: scale(1.1);
+}
+.clos{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.closebtn{
+    margin-top:100px;
+    margin-bottom:50px;
+    color: white;
+    background: red;
+    padding:18px 29px;
+    border: 2px solid red;
+    border-radius: 6px;
+}
+.closebtn:hover{
+    color:red;
+    background: transparent;
+    transform: scale(1.1);
+}

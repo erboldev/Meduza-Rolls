@@ -4,7 +4,7 @@
 }
 
 .container {
-    width: 1140px;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -28,10 +28,11 @@ button {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-top:30px;
 }
 
 .header-logo img{
-    width: 110px;
+    width: 80px;
     height: auto;
 }
 
@@ -41,7 +42,7 @@ button {
 }
 
 .header-logo h1 {
-    font-size: 80px;
+    font-size: 50px;
     font-weight: 700;
     color: red;
     padding-left: 20px;
@@ -53,7 +54,7 @@ button {
     font-weight: 600;
     color: white;
     background: red;
-    padding:25px 43px;
+    padding:8px 15px;
     border-radius: 6px;
 }
 .headerBtn1:hover {
@@ -64,16 +65,19 @@ button {
 .hero1all{
     display:flex;
     align-items:center;
+    margin-top:30px;
 }
 .heromenu{
     display: flex;
     align-items:center;
     justify-content:center;
+    margin-top:50px;
+    margin-bottom:50px;
 }
 .heromenu button{
     color:white;
     background: red;
-    padding:20px 45px;
+    padding:3px 20px;
     margin-left: 20px;
     margin-bottom: 25px;
     border-radius: 5.5px;
@@ -84,105 +88,31 @@ button {
 }
 
 #hero{
-    padding:50px;
-}
-.herorol{
-    display:none;
+    padding:50px 0;
 }
 .heropiza{
     display: none;
 }
-.heropiza img{
-    padding-bottom:45px;
-}
+
 
 .hero img{
-    width:225px;
-    padding-right:15px;
-    padding-top:25px;
+    border-radius: 35px;
+    width:200px;
+    padding-right: 15px;
 }
 .hero1text h3{
     font-weight: 550;
     color:red;
-    font-size: 45px;
-}
-.hero1text h4{
-    font-weight: 500;
-    color:red;
     font-size: 42px;
 }
+.hero1text h4{
+    font-weight: 530;
+    color:red;
+    font-size: 28px;
+    width:600px;
+}
 
 
-.modal{
-    background: white;
-    width: 600px;
-    height: 600px;
-    margin:0 auto;
-    display: none;
-}
-.mes a{
-    display: flex;
-    justify-content:center ;
-}
-.mmm{
-    width: 500px;
-    height: 100px;
-    background: red;
-    margin-top:100px;
-    border-radius: 5.5px;
-    font-size: 60px ;
-    color:white;
-}
-.mmm:hover{
-    color:red;
-    background: transparent;
-    transform: scale(1.1);
-}
-.nnn{
-    width: 500px;
-    height: 100px;
-     background: red;
-     margin-top:50px;
-     border-radius: 5.5px;
-     font-size: 60px ;
-     color:white;
- }
-.nnn:hover {
-    color: red;
-    background: transparent;
-    transform: scale(1.1);
-}
-.sss{
-    width: 500px;
-    height: 100px;
-    background: red;
-    margin-top:50px;
-    border-radius: 5.5px;
-    font-size: 60px ;
-    color:white;
-}
-.sss:hover{
-    color:red;
-    background: transparent;
-    transform: scale(1.1);
-}
-.clos{
-    display: flex;
-    justify-content: flex-end;
-}
-.closebtn{
-    margin-top:200px;
-    margin-bottom:100px;
-    color: white;
-    background: red;
-    padding:10px 20px;
-    border-radius: 6px;
-}
-.closebtn:hover{
-    color:red;
-    background: transparent;
-    transform: scale(1.1);
-}
 
 
 
@@ -202,37 +132,192 @@ button {
     }
 }
 @media(max-width:768px){
-    .container{
-        width:90%;
+    .hero1text h3{
+        font-size: 40px;
+        font-weight: 500;
     }
+    .hero1text h4{
+        font-size: 28px;
+        width: 500px;
+    }
+
 }
 @media(max-width:576px){
     .container{
     width:90%
-}
+     }
+    .hero img{
+        width: 160px;
+    }
+    .hero1text h3{
+        font-size: 38px;
+        font-weight: 500;
+    }
+    .hero1text h4{
+        font-size: 20px;
+        width: 355px;
+    }
+    .heromenu{
+        flex-wrap: wrap;
+    }
+    .heromenu button{
+        font-size: 20px;
+    }
+    .header-logo img{
+        width: 70px;
+    }
+    .header-logo h1{
+        font-size: 43px;
+        padding-left: 5px;
+    }
+    .headerBtn1{
+        padding:7px 13px;
+        font-size: 20px;
+    }
+
 }
 @media(max-width:450px) {
     .container {
         width: 90%;
     }
+    .hero img{
+        width: 140px;
+    }
+    .hero1text h3{
+        font-size: 33px;
+        font-weight: 500;
+    }
+    .hero1text h4{
+        font-size: 17px;
+        width: 270px;
+    }
+    .heromenu{
+        margin-top: 0;
+    }
+    .heromenu button{
+        font-size: 15px;
+        margin-left: 13px;
+        margin-bottom: 10px;
+    }
+    .header-logo img{
+        width: 60px;
+    }
+    .header-logo h1{
+        font-size: 28px;
+        padding-left: 5px;
+    }
+    .headerBtn1{
+        padding:7px 13px;
+        font-size: 15px;
+        font-weight: 545;
+    }
+
 }
 @media(max-width:400px){
     .container{
-            width:90%;
+        width:90%;
+    }    .hero img{
+             width: 125px;
+         }
+    .hero1text h3{
+        font-size: 30px;
+        font-weight: 500;
     }
+    .hero1text h4{
+        font-size: 16px;
+        width: 235px;
+    }
+    .heromenu{
+        margin-top: 0;
+    }
+    .heromenu button{
+        font-size: 15px;
+        margin-left: 13px;
+        margin-bottom: 10px;
+    }
+    .header-logo img{
+        width: 59px;
+    }
+    .header-logo h1{
+        font-size: 27px;
+        padding-left: 5px;
+    }
+    .headerBtn1{
+        padding:7px 13px;
+        font-size: 15px;
+    }
+
 }
 @media(max-width:375px){
     .container{
-            width:90%;
+        width:90%;
+    }
+    .hero img{
+        width: 112.8px;
+        padding-right: 12px;
+
+    }
+    .hero1text h3{
+        font-size: 27px;
+        font-weight: 500;
+    }
+    .hero1text h4{
+        font-size: 15px;
+        width: 220px;
+    }
+    .heromenu{
+        margin-top: 0;
+    }
+    .heromenu button{
+        font-size: 12px;
+        margin-left: 16px;
+        margin-bottom: 10px;
+    }
+    .header-logo img{
+        width: 50px;
+    }
+    .header-logo h1{
+        font-size: 25px;
+        padding-left: 5px;
+    }
+    .headerBtn1{
+        padding:7px 13px;
+        font-size: 12.5px;
     }
 }
 @media(max-width:320px){
     .container{
         width:90%;
+    }.hero img{
+         width: 100px;
+    padding-right: 10px;
+     }
+    .hero1text h3{
+        font-size: 25px;
+        font-weight: 500;
+    }
+    .hero1text h4{
+        font-size: 13px;
+        width: 192.5px;
+    }
+
+    .heromenu button{
+        font-size: 12.5px;
+        margin-left: 13px;
+        margin-bottom: 10px;
+    }
+    .header-logo img{
+        width: 48px;
+    }
+    .header-logo h1{
+        font-size: 24px;
+        padding-left: 5px;
+    }
+    .headerBtn1{
+        padding:7px 13px;
+        font-size: 13px;
     }
 }
-
-
 
 
 .hero2img img{
